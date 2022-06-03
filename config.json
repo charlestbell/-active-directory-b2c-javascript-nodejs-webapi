@@ -1,13 +1,13 @@
 {
     "credentials": {
-        "tenantName": "fabrikamb2c",
-        "clientID": "93733604-cc77-4a3c-a604-87084dd55348"
+        "tenantName": "sharpsmountain",
+        "clientID": "4af5361e-5695-4921-9b3f-1b7723567d65"
     },
     "policies": {
-        "policyName": "B2C_1_susi"
+        "policyName": "B2C_1_SharpsUserFlow"
     },
     "resource": {
-        "scope": ["tasks.read"]
+        "scope": ["openid offline_access tasks.read"]
     },
     "metadata": {
         "authority": "login.microsoftonline.com",
